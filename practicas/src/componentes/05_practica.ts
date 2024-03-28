@@ -3,7 +3,7 @@ Convierte la función calcularIMC en una arrow function
 y asigna la función anónima resultante a una variable llamada calcularIMCArrow.
 */
 
-let calcularIMCArrow=(pesokilogramos:number, alturaMetros:number): string =>{
+let calcularIMCArrow =  (pesokilogramos:number, alturaMetros:number): string =>{
     let result:any=  Math.round((pesokilogramos / (alturaMetros * alturaMetros)));
     return String(result);
     

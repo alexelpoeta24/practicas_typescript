@@ -1,5 +1,5 @@
 import './style.css'
-import './componentes/05_practica'
+import './componentes/06_practica'
 
 
 
