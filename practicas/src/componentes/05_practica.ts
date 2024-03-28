@@ -3,7 +3,7 @@ Convierte la función calcularIMC en una arrow function
 y asigna la función anónima resultante a una variable llamada calcularIMCArrow.
 */
 
-let calcularIMC=(pesokilogramos:number, alturaMetros:number): string =>{
+let calcularIMCArrow=(pesokilogramos:number, alturaMetros:number): string =>{
     let result:any=  Math.round((pesokilogramos / (alturaMetros * alturaMetros)));
     return String(result);
     
@@ -15,7 +15,7 @@ let calcularIMC=(pesokilogramos:number, alturaMetros:number): string =>{
     
     let altura:any = prompt(nombre + ". Su Altura en (Metros).");
     
-    let imcCalcular = calcularIMC(peso,altura);
+    let imcCalcular = calcularIMCArrow(peso,altura);
     
     let respuesta=nombre + " el imc calculado es: " +imcCalcular;
         alert(respuesta)
