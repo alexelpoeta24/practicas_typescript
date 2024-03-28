@@ -6,7 +6,7 @@ Escribe una función crearListaDeCompra que tome un número indefinido de argume
 */
 
 function crearListaDeCompra(...articulos: string[]): { [articulo: string]: boolean } {
-  let listaDeCompra: { [key: string]: boolean } = {};
+  let listaDeCompra: { [articulo: string]: boolean } = {};
   articulos.forEach((articulo) => {
     listaDeCompra[articulo] = false;
   });
