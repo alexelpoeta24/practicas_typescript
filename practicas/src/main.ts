@@ -1,5 +1,5 @@
 import './style.css'
-import './componentes/07_practicas'
+import './componentes/08_practicas/asignaciones/05_ejercicio'
 
 
 
